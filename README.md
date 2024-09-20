@@ -1,6 +1,6 @@
 # Diabetes Prediction Web Application
 
-This project is a Flask-based web application that predicts the likelihood of a patient having diabetes based on various health metrics. The machine learning model used for prediction is built using Logistic Regression and is trained on the [https://www.kaggle.com/datasets/rahulsah06/machine-learning-for-diabetes-with-python/data).
+This project is a Flask-based web application that predicts the likelihood of a patient having diabetes based on various health metrics. The machine learning model used for prediction is built using Logistic Regression and is trained on the `.
 
 ## Table of Contents
 
@@ -35,4 +35,23 @@ This project is a Flask-based web application that predicts the likelihood of a 
    - The input data is normalized using a **StandardScaler** before being passed into the Logistic Regression model for prediction.
    - The trained model, stored as a `pkl` file, is loaded during the app initialization and used for real-time predictions.
 
+## Usage
 
+1. Input relevant health data such as:
+      Number of pregnancies
+      Glucose level
+      Blood pressure
+      Skin thickness
+      Insulin level
+      BMI
+      Diabetes Pedigree Function
+      Age
+2. Click the "Predict" button to check whether the person is likely to have diabetes.
+   The model will return a result indicating whether the patient is "Diabetic" or "Non-Diabetic."
+   
+
+## Model Information
+
+The prediction model is a Logistic Regression model trained using the [https://www.kaggle.com/datasets/rahulsah06/machine-learning-for-diabetes-with-python/data) Diabetes dataset.
+The model pipeline includes a StandardScaler for feature normalization before passing the data into the Logistic Regression model.
+The model achieves an accuracy of approximately 77.9% using cross-validation.
