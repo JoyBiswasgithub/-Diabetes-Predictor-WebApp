@@ -1,6 +1,6 @@
 # Diabetes Prediction Web Application
 
-This project is a Flask-based web application that predicts the likelihood of a patient having diabetes based on various health metrics. The machine learning model used for prediction is built using Logistic Regression and is trained on the [PIMA Diabetes dataset](https://www.kaggle.com/uciml/pima-indians-diabetes-database).
+This project is a Flask-based web application that predicts the likelihood of a patient having diabetes based on various health metrics. The machine learning model used for prediction is built using Logistic Regression and is trained on the [https://www.kaggle.com/datasets/rahulsah06/machine-learning-for-diabetes-with-python/data).
 
 ## Table of Contents
 
