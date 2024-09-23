@@ -1,0 +1,55 @@
+body {
+    background-color: #f8f9fa;
+    font-family: 'Arial', sans-serif;
+}
+
+.title {
+    font-size: 2.5rem;
+    color: #007bff;
+    animation: fadeIn 2s ease-in-out;
+}
+
+.animated-card {
+    animation: slideIn 1.5s ease-in-out;
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+.animate-btn {
+    transition: transform 0.2s;
+}
+
+.animate-btn:hover {
+    transform: scale(1.1);
+}
+
+#res{
+    font-size: 500px;
+    font-weight: 100px;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@media (max-width: 768px) {
+    .title {
+        font-size: 2rem;
+    }
+}
